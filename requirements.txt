@@ -1,0 +1,4 @@
+# Currently stdlib-only (urllib, csv, json, re) so nothing to install.
+# Kept here so pip install -r requirements.txt is a no-op and future
+# additions (e.g. pandas for richer analysis, beautifulsoup4 for more
+# robust HTML parsing) have an obvious place to go.
