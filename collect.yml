@@ -1,0 +1,45 @@
+name: Collect space weather forecasts and score accuracy
+
+on:
+  schedule:
+    # 07:00 UTC — after all four sites have issued their morning update
+    # (NOAA 00:30, Met Office ~00:11-01:00, SIDC overnight, GFZ every 3h)
+    - cron: "0 7 * * *"
+  workflow_dispatch: {}   # allows manual trigger from the Actions tab,
+                          # and is what an external cron-job.org ping can hit
+                          # via the REST API if GitHub's native schedule
+                          # trigger proves unreliable (as it did for the
+                          # Metop diagram pipeline)
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch tomorrow's forecasts from all four sources
+        run: python scripts/fetch_forecasts.py
+
+      - name: Fetch yesterday's observed conditions (ground truth)
+        run: python scripts/fetch_observed.py
+
+      - name: Score accuracy
+        run: python scripts/score.py | tee scorecard_summary.md
+
+      - name: Write job summary
+        run: cat scorecard_summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit updated data
+        run: |
+          git config user.name "space-weather-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/forecasts.csv data/observed.csv data/scorecard.csv
+          git diff --cached --quiet || git commit -m "Daily forecast/observed/scorecard update"
+          git push
