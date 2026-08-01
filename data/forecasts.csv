@@ -32,3 +32,21 @@ Quiet activity is generally expected with isolated Unsettled spells, with a chan
 Energetic Particles / Solar Radiation: 
 The count rate of energetic particles (high energy protons) is now below S1/Minor radiation storm levels and is expected to continue gradually declining through days 1 and 2 (31 Jul to 01 Aug), returning to Background levels later in the period.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-07-31,2026-08-01,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-01,2026-08-02,NOAA,5.67,G1,R1-R2:35% R3+:5%,C,35,S1+:25%,False,25,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-01,2026-08-02,sidc,,,,,,,,,FETCH FAILED: <urlopen error [Errno 104] Connection reset by peer>
+2026-08-01,2026-08-02,MetOffice,,G3,Chance of isolated Moderate-class flares. Likelihood of G1-G2/Minor-Moderate geomagnetic storms early Day 2 (02 Aug). Chance of S1/Minor Radiation Storm Day 1 (01 Aug).,,,"Solar Activity:
+ Low to Moderate solar activity is expected to continue, with a chance of isolated Moderate-class flares.&nbsp;
+
+
+
+Solar Wind / Geomagnetic Activity: 
+A CME which left the Sun on 30 Jul is likely to reach Earth late on Day 1 or early on Day 2 (01-02 Aug). The impact at Earth is most likely to be from the edge of the CME, but there is a slight risk of seeing some of the main bulk of the material at Earth. Earth currently appears to be experiencing some very weak CME influence, likely from the CME which left the Sun on 27 July. Otherwise, there is also the possibility of a weak connection to coronal hole fast winds on Day 1.&nbsp;
+
+
+Quiet to Unsettled geomagnetic activity at first, with a chance of Active intervals from weak CME or fast wind effects. From late Day 1 or early Day 2, the next CME arrival brings a likelihood of G1-G2/Minor-Moderate Storms, with a slight chance of G3/Strong Storm intervals should the main bulk of the CME reach Earth. Activity then declining again later in the period.
+
+
+
+Energetic Particles / Solar Radiation: 
+The count rate of energetic particles (high energy protons) is currently below S1/Minor radiation storm levels and is expected to continue a gradual but erratic downward trend through Days 1-2 (01-02 Aug). There remains a chance of exceeding again on Day 1, lowering to a slight chance on subsequent days.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-01,2026-08-02,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
