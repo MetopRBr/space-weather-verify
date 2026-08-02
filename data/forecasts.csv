@@ -50,3 +50,18 @@ Quiet to Unsettled geomagnetic activity at first, with a chance of Active interv
 Energetic Particles / Solar Radiation: 
 The count rate of energetic particles (high energy protons) is currently below S1/Minor radiation storm levels and is expected to continue a gradual but erratic downward trend through Days 1-2 (01-02 Aug). There remains a chance of exceeding again on Day 1, lowering to a slight chance on subsequent days.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-01,2026-08-02,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-02,2026-08-03,NOAA,4.0,Active,R1-R2:30% R3+:5%,C,30,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-02,2026-08-03,sidc,,,,,,,,,FETCH FAILED: <urlopen error [Errno 104] Connection reset by peer>
+2026-08-02,2026-08-03,MetOffice,,G3,G1-G2/Minor-Moderate geomagnetic storms likely day 1 (02 Aug) due to Coronal Mass Ejection arrival. Chance of isolated M-flares.,,,"Solar Activity:
+ Low to Moderate solar activity is expected to continue, with a chance of isolated Moderate-class flares.&nbsp;
+
+
+
+Solar Wind / Geomagnetic Activity: 
+A CME which left the Sun on 30 Jul is likely to reach Earth early day 1 (02 Aug). While the majority of the material is likely to pass ahead of Earth, this is likely to give a spell of of G1-G2/Minor-Moderate Storms, with a slight chance of G3/Strong Storm intervals. Activity then declining again day 2 (03 Aug) with no further significant enhancements. Aside from the CME, geomagnetic activity is expected to be mainly Quiet with isolated Unsettled intervals.
+
+
+
+Energetic Particles / Solar Radiation: 
+The count rate of energetic particles (high energy protons) is expected to remain below the S1 Minor Radiation Storm level with no further enhancements forecast.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-02,2026-08-03,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
