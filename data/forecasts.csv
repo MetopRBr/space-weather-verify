@@ -96,3 +96,18 @@ In the absence of any geoeffective coronal holes or Earth directed CMEs solar wi
 
 Energetic Particles / Solar Radiation:&nbsp;GOES18 &gt;10MeV proton flux is expected to continue at Background with no further enhancement currently forecast..",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-04,2026-08-05,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-05,2026-08-06,NOAA,1.67,Quiet,R1-R2:20% R3+:1%,C,20,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-05,2026-08-06,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-05,2026-08-06,MetOffice,,Unsettled,&nbsp; &nbsp;Chance of isolated Moderate-class flares.,,,"Solar Activity: 
+Low solar activity is expected to continue with a slight chance of isolated Moderate-class flares.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+In the absence of any geoeffective coronal holes or Earth directed Coronal Mass Ejections, solar wind speeds are expected to reduce to Background on Day 1 (05 Aug), though Enlil suggests they could increase to Slightly Elevated on Day 4 (08 Aug) due to a possible glancing blow from a Coronal Mass Ejections . Geomagnetic activity is likely to be Quiet to Unsettled (Kp0-3), although there is a small chance it could increase on Day 4 (08 Aug) due to a possible glancing blow from a Coronal Mass Ejection or connection to Coronal Hole. This is very low confidence.&nbsp;
+
+
+
+Energetic Particles / Solar Radiation: 
+GOES18 &gt;10MeV proton flux is expected to continue at Background.&nbsp;",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-05,2026-08-06,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
