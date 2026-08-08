@@ -153,3 +153,21 @@ Quiet geomagnetic activity is expected to persist until any weak CME or coronal 
 Energetic Particles / Solar Radiation: 
 GOES18 &gt;10MeV proton flux is expected to continue at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-07,2026-08-08,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-08,2026-08-09,NOAA,3.67,Unsettled,R1-R2:10% R3+:1%,C,10,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-08,2026-08-09,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-08,2026-08-09,MetOffice,,Active,&nbsp; Slight chance of isolated Moderate-class flares. Slight chance of Minor geomagnetic storms Days 1-2 (08-09 Aug).,,,"Solar Activity: 
+Low to Very Low solar activity is expected with just a slight chance of an isolated Moderate-class flare.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+Solar winds are slow at present, and likely to remain for much of this period. However, a CME which left the Sun on 04 Aug may give a glancing blow at Earth later on Day 1 (08 Aug), temporarily increasing solar winds to slightly elevated levels. In addition a small coronal hole in the southwest could give a weak enhancement to slightly elevated levels around the same time, from later Day 1 then persisting into Day 2 (08-09 Aug). Slow wind speeds are then expected to return by the end of the period, most likely from Day 3 (09 Aug).
+
+
+Quiet geomagnetic activity is expected to persist unless any CME or weak fast wind arrival occurs, then perhaps becoming Unsettled to Active with a slight chance of an isolated Minor Geomagnetic Storm interval Day 1 into Day 2. By Day 3 (10 Aug) geomagnetic activity is expected to be mostly Quiet once again.
+
+
+
+Energetic Particles / Solar Radiation: 
+GOES18 &gt;10MeV proton flux is expected to continue at background levels.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-08,2026-08-09,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
