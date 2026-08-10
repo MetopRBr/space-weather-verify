@@ -186,3 +186,18 @@ Current CME influence is expected soon ease. A further CME arrival is then possi
 Energetic Particles / Solar Radiation: 
 The count rate of energetic particles (high energy protons) is expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-09,2026-08-10,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-10,2026-08-11,NOAA,3.67,Unsettled,R1-R2:1% R3+:1%,C,1,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-10,2026-08-11,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-10,2026-08-11,MetOffice,,Active,Chance of Active to Minor geomagnetic storm days 2-3 (11-12 Aug).&nbsp;&nbsp;,,,"Solar Activity:&nbsp;
+Low or Very Low activity is expected to continue, with further Common class flares likely to continue until the region in the far northwest rotates across the western limb.
+
+
+
+Solar Wind / Geomagnetic Activity:&nbsp; 
+Slightly elevated solar winds probably declining back to Low levels. A further CME arrival is then possible with a glancing impact on day 2-3 (11-12 Aug). This is due to the 08 Aug north-centre disc filament eruption, although any observed arrival is low confidence, with the CME mainly passing north of Earth. However this could arrive alongside the onset of weak fast winds. Geomagnetic activity is expected to be mainly Quiet. However any CME glance or fast wind onset later on day 2 or day 3 (11-12 Apr) will bring a further chance for a spell of Unsettled to Active geomagnetic activity with a probability of isolated Minor Geomagnetic Storm intervals.
+
+
+
+Energetic Particles / Solar Radiation: 
+The count rate of energetic particles (high energy protons) is expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-10,2026-08-11,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
