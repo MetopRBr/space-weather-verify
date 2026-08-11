@@ -201,3 +201,21 @@ Slightly elevated solar winds probably declining back to Low levels. A further C
 Energetic Particles / Solar Radiation: 
 The count rate of energetic particles (high energy protons) is expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-10,2026-08-11,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-11,2026-08-12,NOAA,5.0,G1,R1-R2:1% R3+:1%,C,1,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-11,2026-08-12,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-11,2026-08-12,MetOffice,,G2,Chance of Active to Minor geomagnetic storm on Days 1-2 (11-12 Aug).&nbsp;&nbsp;,C,,"Solar Activity: 
+Low or Very Low activity is expected throughout, with a chance of further C-class flares. A slightly larger, uni-polar region has appeared on the eastern limb, this will be monitored as it rotates further onto the visible disk, however, this is likely to be a mature and relatively inactive region and not expected to significantly change solar activity.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+A Coronal Mass Ejection, from the north-centre disc filament eruption on 08 Aug, will probably pass north of Earth either late day 1 or early day 2 (11-12 Aug), and brings a chance of glancing impacts.
+
+
+Solar winds are currently at background levels with mainly Quiet geomagnetic activity. These conditions are likely to persist until at least late day 1 or into day 2 (11-12 Aug), when the onset of any fast wind associated with a small coronal hole is expected. This is low confidence due its small size, lack of support in persistence, and minimal appearance in MOSWOC Enlil. However, any enhancement could combine with the potential weak glancing blow Coronal Mass Ejection arrival. These two potential events give a chance for enhanced geomagnetic activity with a spell of Unsettled to Active and possible G1/Minor Geomagnetic Storm intervals from late day 1 and into early day 2 (11-12 Aug), and a perhaps even a slight chance of G2/Moderate storms given that there is possible Coronal Mass Ejection material from the filament eruption which tends to enhance activity.
+
+
+
+Energetic Particles / Solar Radiation: 
+GOES18 &gt;10MeV proton flux is expected to continue at Background.&nbsp;",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-11,2026-08-12,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
