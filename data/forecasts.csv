@@ -234,3 +234,21 @@ The Coronal Mass Ejection from 08 Aug seems to have arrived around 11/1030 UTC g
 Energetic Particles / Solar Radiation: 
 GOES18 &gt;10MeV proton flux is expected to continue at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-12,2026-08-13,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-13,2026-08-14,NOAA,4.0,Active,R1-R2:15% R3+:1%,C,15,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-13,2026-08-14,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-13,2026-08-14,MetOffice,,G1,Chance of Minor Geomagnetic Storm G1 from Day 2 (14 Aug).,M,,"Solar Activity: 
+Activity is expected to remain Low, with only a slight chance of an isolated M-class flare.&nbsp;
+
+
+
+Solar Wind / Geomagnetic Activity:
+ CH86/+ is expected to connect with Earth from later Day 1 (13 Aug), or more likely through Day 2 (14 Aug), but this is also low confidence.&nbsp;
+
+
+Geomagnetic activity may increase late Day 1 (13 Aug) or more likely through Day 2 (14 Aug) upon connection to CH86/+, to bring a likelihood of Active intervals and a chance of G1/Minor geomagnetic storms, which may also continue into Day 3 (15 Aug), before gradually waning on Day 4 (16 Aug).&nbsp; &nbsp;
+
+
+
+Energetic Particles / Solar Radiation: 
+GOES18 &gt;10MeV proton flux is expected to continue at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-13,2026-08-14,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
