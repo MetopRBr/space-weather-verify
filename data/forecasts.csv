@@ -252,3 +252,18 @@ Geomagnetic activity may increase late Day 1 (13 Aug) or more likely through Day
 Energetic Particles / Solar Radiation: 
 GOES18 &gt;10MeV proton flux is expected to continue at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-13,2026-08-14,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-14,2026-08-15,NOAA,3.67,Unsettled,R1-R2:10% R3+:1%,C,10,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-14,2026-08-15,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-14,2026-08-15,MetOffice,,Active,Chance of Minor Geomagnetic Storm Friday 14 August.,,,"Solar Activity: 
+Activity will most likely be Low, with isolated Common class flares. One moderately sized region should depart the disc to end the UTC weekend. Two returning regions may rotate onto the disc through the next two days, but they are unlikely to be significant. Therefore, there is only a slight chance of isolated Moderate class flares.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ No CMEs feature in the forecast. The current solar wind regime may give way to a solar wind enhancement from a coronal hole later Day 1 or early Day 2 (14 and 15 Aug). Should the enhancement arrive the initial Quiet to Unsettled activity is expected to increase to become Unsettled to Active, with a Chance of Minor geomagnetic storms intervals, later Day 1 (14 Aug) into Day 2 (15 Aug). Activity then declines to become increasingly Quiet through Days 3 and 4 (16 and 17 Aug). &nbsp;&nbsp;
+
+
+
+Energetic Particles / Solar Radiation: 
+No solar radiation storms are expected - given the lack of suitably complex, well-connected sunspot regions (i.e. larger regions in the west).",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-14,2026-08-15,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
