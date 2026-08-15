@@ -267,3 +267,18 @@ Solar Wind / Geomagnetic Activity:
 Energetic Particles / Solar Radiation: 
 No solar radiation storms are expected - given the lack of suitably complex, well-connected sunspot regions (i.e. larger regions in the west).",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-14,2026-08-15,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-15,2026-08-16,NOAA,2.67,Quiet,R1-R2:15% R3+:1%,C,15,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-15,2026-08-16,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-15,2026-08-16,MetOffice,,,Minor/Moderate geomagnetic storm Expected Monday 17 August.,,,"Solar Activity: 
+Activity will most likely remain low, however there is now a daily slight chance of Moderate-class flares. New regions may rotate onto the disc during the forecast period, most likely during Day 1 (15th Aug) and then Day 4 (18th Aug), although these regions are unlikely to be significant due to the lack of activity from behind the east limb.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ There is one Earth directed CME in the forecast, from the filament eruption on the 14th. The timing of the CME arrival has uncertainties linked to the potential arrival of a solar wind enhancement from a coronal hole feature in the northwest. This solar wind enhancement is expected to connect to Earth through Day 1 (15th Aug) but there is an increasing probability that the connection will not occur. Without being embedded within a solar wind enhancement the CME arrival will be later than currently expected. Late day 4 (18th Aug) a new solar wind enhancement may arrive, from a coronal hole currently in the southeast. However, this feature may be too far south to connect to Earth.
+
+
+
+Energetic Particles / Solar Radiation: 
+Solar radiation levels showed no measurable reaction to increased activity from the sunspot region in the southwest. There is a daily slight chance of Minor Solar Radiation Storm S1 or greater, revised slightly higher than of late in light of increased activity.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-15,2026-08-16,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
