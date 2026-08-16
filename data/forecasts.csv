@@ -282,3 +282,21 @@ Solar Wind / Geomagnetic Activity:
 Energetic Particles / Solar Radiation: 
 Solar radiation levels showed no measurable reaction to increased activity from the sunspot region in the southwest. There is a daily slight chance of Minor Solar Radiation Storm S1 or greater, revised slightly higher than of late in light of increased activity.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-15,2026-08-16,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-16,2026-08-17,NOAA,4.0,Active,R1-R2:15% R3+:1%,C,15,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-16,2026-08-17,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-16,2026-08-17,MetOffice,,G2,"G1-G2 (Minor-Moderate) geomagnetic storms likely Day 2 (17 Aug), chance of G1/Minor storms Days 3-4 (18-19 Aug).",,,"Solar Activity:
+ Activity will most likely remain Low, however there is an increasing slight chance of Moderate class flares.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ There is one Earth directed CME in the forecast. The timing of the CME arrival has uncertainties, given that wind speeds are significantly slower than those currently modelled. As such, the forecast arrival time has been pushed back to later on Day 2 (17 Aug). On Day 3 (18 Aug) a new fast wind may arrive, likely lasting into Day 4 (19 Aug). Whilst this feature gave wind speeds up to 700 km/s on the last rotation, it has changed since then and there is significant uncertainty in the wind speeds expected this time.&nbsp;
+
+
+Geomagnetic activity is expected to be Quiet to Unsettled on Day 1, increasing on Day 2 with G1/Minor intervals likely and a chance of G2/Moderate geomagnetic storms. Overall, geomagnetic activity on Days 3-4 is likely to gradually reduce, but still potentially Unsettled to Active with a chance of G1/Minor storms, including a slight chance of G2/Moderate storm intervals on Day 3.
+
+
+
+Energetic Particles / Solar Radiation: 
+Solar radiation levels are likely to be at background levels, with no solar radiation storms expected.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-16,2026-08-17,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
