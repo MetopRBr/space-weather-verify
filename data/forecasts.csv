@@ -318,3 +318,26 @@ Geomagnetic activity is expected to be Quiet to Unsettled on Day 1, increasing o
 Energetic Particles / Solar Radiation: 
 Solar radiation levels are likely to be at background levels, with no solar radiation storms expected.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-17,2026-08-18,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-18,2026-08-19,NOAA,4.67,Active,R1-R2:35% R3+:5%,C,35,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-18,2026-08-19,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-18,2026-08-19,MetOffice,,G2,"Chance of G1/Minor storms Days 1-3 (18-20 Aug), with a Chance of G2/Moderate storms initially on Day 1 (18 Aug). Chance of Moderate class flares.&nbsp;",,,"Solar Activity: 
+Activity will most likely remain Low, however there is a chance of isolated Moderate-class flares, most likely from AR4507
+.&nbsp;
+
+
+
+
+Solar Wind / Geomagnetic Activity: 
+A CME (coronal mass ejection) associated with a filament eruption on 14 Aug may reach Earth early Day 1 (18 Aug). A second CME associated with a common class flare from a region in the west of the disc at 16/1928 UTC may deliver a glancing blow at Earth on Day 3 (20 Aug). Confidence for both these CMEs is very low.&nbsp;
+
+
+Coronal hole fast winds may arrive during this period, perhaps late on Day 1 (18 Aug), but more likely through Day 2 (19 Aug), before gradually declining through Days 3-4 (20-21 Aug). Solar wind speeds reached 700 km/s on last rotation, but there is significant uncertainty regarding possible speeds this time around.&nbsp;
+
+
+Geomagnetic activity is expected to be Quiet to Unsettled (Kp1-3) until the possible CME arrival early Day 1 (18 Aug), at which point activity may increase to give Active/ G1 minor storm intervals and a slight chance of G2/Moderate geomagnetic storms. Activity may then wane until the onset of the HSS from CH87/- or CH88/- from later Day 1, or more likely through Day 2 (19 Aug), which along with glancing CME effects on Day 3 (20 Aug) keeps a chance of G1/Minor Storms through Day 2 and 3, before activity likely returns to mostly Quiet to Unsettled levels on Day 4 (21 Aug).&nbsp;
+
+
+
+Energetic Particles / Solar Radiation: 
+GOES18 &gt;10MeV proton flux is likely to continue at background levels.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-18,2026-08-19,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
