@@ -341,3 +341,18 @@ Geomagnetic activity is expected to be Quiet to Unsettled (Kp1-3) until the poss
 Energetic Particles / Solar Radiation: 
 GOES18 &gt;10MeV proton flux is likely to continue at background levels.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-18,2026-08-19,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-19,2026-08-20,NOAA,4.0,Active,R1-R2:35% R3+:5%,C,35,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-19,2026-08-20,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-19,2026-08-20,MetOffice,,G1,Chance of G1/Minor storms days 1-3 (19-20 Aug). Chance of Moderate-class flares.&nbsp;,,,"Solar Activity: 
+Activity is likely to remain Low, however there is a chance of isolated Moderate-class flares, most likely from the larger region in the western disc
+
+
+
+Solar Wind / Geomagnetic Activity:
+ CME which left the Sun on&nbsp;16/1928 UTC is expected pass above Earth, but with the low chance of a glancing impact on day 2 (20 Aug). Otherwise the current fast winds are expected to soon be followed by those from another similar enhancement leading to a prolonged period of Elevated, perhaps Strong solar winds, only gradually easing from late day 3 or more likely day 4 (21-22 Aug). Geomagnetic activity is expected to reman Quiet to Unsettled overall, but with a chance for periods of Active to G1 Minor Storm, mainly day 1 and day 2 (19-20 Aug).&nbsp;
+
+
+
+Energetic Particles / Solar Radiation: 
+The count rate of energetic particles (high energy protons) is expected to stay at Background, with only a slight chance of rising if any notable eruptions are observed from the larger of the sunspot regions.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-19,2026-08-20,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
