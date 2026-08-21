@@ -371,3 +371,18 @@ A Coronal Mass Ejection associated with the C8.2 flare from 16 August may glance
 Energetic Particles / Solar Radiation: 
 GOES-18 &gt; MeV proton flux is at background with only a slight chance of rising given any eruptive events from the disc.&nbsp;",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-20,2026-08-21,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-21,2026-08-22,NOAA,4.0,Active,R1-R2:40% R3+:10%,C,40,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-21,2026-08-22,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-21,2026-08-22,MetOffice,,Active,Chance of Moderate-class flares throughout.&nbsp;,,,"Solar Activity: 
+Activity is likely to be Low to Moderate, with a chance of further Moderate-class flares and a slight chance of a Strong flare, mostly from the region near the northeast limb. A new or returning region is expected to rotate onto the disc, from the far side, most likely during Day 3 (23 Aug). However, this region is not expected to significantly influence solar activity.
+
+
+
+Solar Wind / Geomagnetic Activity:&nbsp; 
+A Coronal Mass Ejection (CME) associated with a Common-class flare from 16 August is now considered to have missed Earth. Earth is currently under the influence of a solar wind enhancement from one or two coronal holes in the western hemisphere. The solar wind enhancement is expected to gradually decline through the period, from initial Elevated speeds around 500 km/s down to Background levels during Days 3 and 4 (23 and 24 Aug). Geomagnetic activity is expected to remain Quiet to Unsettled overall, with a chance for periods of Active (Kp 4), mainly on Day 1 (21 Aug).&nbsp;
+
+
+
+Energetic Particles / Solar Radiation: 
+GOES-18 &gt; MeV proton flux is at background with only a slight chance of rising given any eruptive events from the disc.&nbsp;",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-21,2026-08-22,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
