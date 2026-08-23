@@ -401,3 +401,21 @@ Solar Wind / Geomagnetic Activity:
 Energetic Particles / Solar Radiation: 
 GOES-18 &gt; MeV proton flux is currently Slightly Elevated with a rising trend. It is likely that the proton flux will reach S1/Minor Solar Radiation Storm levels through Day 1 (22 Aug) and at first Day 2 (23 Aug). Thereafter the proton flux is expected to gradually decline, reaching background levels for Day 4 (25 Aug). However, this assumes no significant flares occur during Day 1 from the active region, that generated the proton flux rise , as it continues to rotate further across the far side.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-22,2026-08-23,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-23,2026-08-24,NOAA,1.67,Quiet,R1-R2:45% R3+:10%,C,45,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-23,2026-08-24,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-23,2026-08-24,MetOffice,,G1,Chance of Moderate Class flares throughout.&nbsp;,,,"Solar Activity: 
+Low to Moderate activity is expected with a chance of further Moderate-class flares, most likely from the large and complex region on the disc. There is also a slight chance of Strong flares from this region.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ No Earth directed CMEs are currently expected during the forecast period. Earth is under the waning influence of a fast wind, which will continue to gradually decline to slow speeds during Day 1 and perhaps into Day 2 (23-24 Aug). Another fast wind enhancement could arrive at Earth late on Day 4 (26 Aug), or more likely after the end of this period.
+
+
+Geomagnetic activity is expected to remain Quiet to Unsettled (Kp 0-3) for much of the period, but there is a slight chance of Active to G1/Minor Storm intervals later on Day 4 if the next fast wind arrives.
+
+
+
+Energetic Particles / Solar Radiation:
+ There is a slight chance of solar radiation reaching above the S1/Minor radiation storm threshold throughout the period.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-23,2026-08-24,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
