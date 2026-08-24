@@ -419,3 +419,21 @@ Geomagnetic activity is expected to remain Quiet to Unsettled (Kp 0-3) for much 
 Energetic Particles / Solar Radiation:
  There is a slight chance of solar radiation reaching above the S1/Minor radiation storm threshold throughout the period.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-23,2026-08-24,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-24,2026-08-25,NOAA,1.67,Quiet,R1-R2:45% R3+:10%,C,45,S1+:10%,False,10,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-24,2026-08-25,sidc,,,,,,,,,FETCH FAILED: The read operation timed out
+2026-08-24,2026-08-25,MetOffice,,G1,Chance of R1/Minor Radio Blackouts throughout.&nbsp;,,,"Solar Activity: 
+Low activity is expected to continue, with a chance of becoming Moderate, and a slight chance of becoming High.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ No Earth directed coronal mass ejections are currently expected during the forecast period. Slow-Ambient solar winds are expected through Days 1 and 2 (24-25 Aug). The next enhancement will be from coronal hole fast winds, arriving at Earth either late on Day 3 (26 Aug), or more likely on Day 4 (27 Aug), with wind speeds increasing to Elevated.
+
+
+Geomagnetic activity is expected to remain Quiet (Kp0-2) for much of the period. Activity is expected to increase to Unsettled to Active (Kp3-4) later Day 3 or more likely Day 4 (26/27 Aug), with an increasing Chance of G1/Minor Storm intervals (Kp5) as the anticipated fast winds arrive.
+
+
+
+Energetic Particles / Solar Radiation:
+ There is a slight chance of solar radiation reaching above the S1/Minor radiation storm threshold throughout the period.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-24,2026-08-25,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
