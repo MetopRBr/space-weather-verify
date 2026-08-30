@@ -536,3 +536,21 @@ Geomagnetic activity is expected to be Unsettled to Active (Kp3-4) on Day 1 (29 
 Energetic Particles / Solar Radiation:
  The count rate of energetic particles (high energy protons) is most expected to continue at background levels.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-29,2026-08-30,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-30,2026-08-31,NOAA,3.0,Unsettled,R1-R2:15% R3+:1%,C,15,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-30,2026-08-31,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-30,2026-08-31,MetOffice,,Active,"Slight-chance of isolated Moderate-class flares, otherwise no significant Space Weather expected.",M,,"Solar Activity: 
+Activity is expected to remain Low to Very Low, with only a slight-chance of increasing to Moderate due to isolated M-class flares.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ A slow CME may reach Earth on Day 1 (30 Aug). Otherwise, Slightly Elevated winds from an ongoing fast-wind enhancement will ease, with speeds likely reaching normal background on, or before Day 2 (31 Aug). Speeds are expected to remain slow-ambient thereafter.
+
+
+Geomagnetic activity is forecast to be Quiet to Active on Day 1 (30 Aug) due to minor CH and/or CME influence. By Day 2 (31 Aug) predominantly Quiet activity is expected.
+
+
+
+Energetic Particles / Solar Radiation:
+ The count rate of energetic particles (high energy protons) is expected to continue at background levels.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-30,2026-08-31,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
