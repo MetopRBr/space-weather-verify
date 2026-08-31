@@ -554,3 +554,24 @@ Geomagnetic activity is forecast to be Quiet to Active on Day 1 (30 Aug) due to 
 Energetic Particles / Solar Radiation:
  The count rate of energetic particles (high energy protons) is expected to continue at background levels.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-08-30,2026-08-31,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-08-31,2026-09-01,NOAA,1.67,Quiet,R1-R2:10% R3+:1%,C,10,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-08-31,2026-09-01,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-08-31,2026-09-01,MetOffice,,Unsettled,Slight-chance of Moderate-class flares.,M,,"Solar Activity: 
+Activity is expected to remain Low to Very Low, with a slight-chance of Moderate if an isolated M-class flare is observed.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ No Earth-directed CMEs are currently forecast.
+
+
+Slightly Elevated solar winds are likely to continue on Days 1 and 2 (31 Aug and 01 Sep). Thereafter speeds easing and reducing to normal Low levels.
+
+
+Geomagnetic activity is forecast to be Quiet to Unsettled on Day 1 (31 Aug), then expected to be Quiet from Day 2 (01 Sep) onwards.
+
+
+
+Energetic Particles / Solar Radiation:
+ The count rate of energetic particles (high energy protons) is expected to continue at background levels.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-08-31,2026-09-01,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
