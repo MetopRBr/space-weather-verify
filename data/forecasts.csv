@@ -647,3 +647,18 @@ Geomagnetic activity is expected to be mostly Quiet (Kp0-2), but may increase to
 Energetic Particles / Solar Radiation: 
 The number of energetic particles (high energy proton&nbsp;flux) is forecast to remain at background, with no solar radiation storms expected.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-09-04,2026-09-05,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-09-05,2026-09-06,NOAA,1.67,Quiet,R1-R2:20% R3+:1%,C,20,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-09-05,2026-09-06,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-09-05,2026-09-06,MetOffice,,G1,"Likelihood of Moderate class flares, slight chance of isolated Strong class flares. &nbsp;",X,,"Solar Activity: 
+Moderate Activity is likely with further isolated Moderate flares and a slight chance of an isolated Strong (X-class) flare, most likely from the new regions near the northeast limb.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ A weak CME from 02 Sep may give a slight enhancement on passing either later day 2 or day 3 (06-07 Sep), although confidence is low. A coronal hole is also expected to bring faster solar winds through a similar period, although confidence is low on timing and strength. Geomagnetic activity is expected to be mostly Quiet (Kp0-2), likely increasing to Unsettled to Active (Kp3-4) on days 2-3 (06-07 Sep), with a chance of an isolated Minor storm/G1 (Kp5) intervals, most likely on day 3 (07 Sep), before gradually waning on day 4 (08 Sep).
+
+
+
+Energetic Particles / Solar Radiation: 
+The number of energetic particles (high energy proton flux) is forecast to remain at Background, with no Solar Radiation Storms expected.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-09-05,2026-09-06,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
