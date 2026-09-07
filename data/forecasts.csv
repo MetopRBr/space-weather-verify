@@ -677,3 +677,20 @@ Solar Wind / Geomagnetic Activity:
 Energetic Particles / Solar Radiation: 
 The number of energetic particles (high energy proton flux) is forecast to remain at Background, with no Solar Radiation Storms expected.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-09-06,2026-09-07,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-09-07,2026-09-08,NOAA,4.67,Active,R1-R2:15% R3+:1%,C,15,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-09-07,2026-09-08,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-09-07,2026-09-08,MetOffice,,G2,"Chance of Moderate Geomagnetic Storm G2 from later in UTC day 08 September, through midweek.",,,"Solar Activity: 
+There is a slight chance of mainly low activity increasing to moderate before midweek UTC, perhaps rising to a chance thereafter due to the expected return of a far-sided active region. No significant departures are due in the period.
+
+
+
+
+
+Solar Wind / Geomagnetic Activity:
+ The geomagnetic forecast is complex. the only 'coronal hole' fast wind-derived component is due imminently and may result in a peak chance of Minor geomagnetic storm G1 in the first 24 hours. This may see a contribution from a close pass from a minor 02 September CME, with up to three other CMEs then due past Earth from later 08 September. These CMEs give a broad peak chance of Moderate geomagnetic storm G2 straddling these UTC days, with the peak risk centred on the midnight dividing them, but perhaps earlier than previous guidance given revised modelling. Confidence lowers later in the forecast period, with the tail of these CMEs' influence fading. Any new CME in the last 24 hours (discussed above would probably alter the tail of this four-day forecast, with a new coronal hole fast wind then also arriving before the UTC weekend.
+
+
+
+Energetic Particles / Solar Radiation:&nbsp;
+Solar radiation is now near resting background. There is a slightly higher residual risk than is typical for the current cohort of sunspot regions, although the daily risk is still slight.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-09-07,2026-09-08,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
