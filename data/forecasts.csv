@@ -734,3 +734,24 @@ As a result, geomagnetic activity is expected to remain predominantly Quiet to U
 Energetic Particles / Solar Radiation: 
 Solar radiation is now at background, with a very slight chance of further enhancements above the S1/Minor Radiation Storm threshold.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-09-09,2026-09-10,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-09-10,2026-09-11,NOAA,3.0,Unsettled,R1-R2:10% R3+:1%,C,10,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-09-10,2026-09-11,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-09-10,2026-09-11,MetOffice,,G1,"&nbsp; Chance of G1/Minor storm, Day 2 (11 Sep).",M,,"Solar Activity: S
+olar activity is expected to remain Low to Very Low, although there is a slight chance of isolated M-class flaring.
+
+
+
+Solar Wind / Geomagnetic Activity:
+&nbsp;Earth continues to experience the influence of a magnetic cloud associated with one or possibly two weak CMEs, with solar wind speeds currently around 460 km/s.&nbsp;
+
+
+A coronal hole, CH92/+, may bring a high-speed stream, potentially driving solar wind speeds back above 500 km/s late on Day 2 and into Day 3 (11-12 Sep). However, this feature is not recurrent, resulting in low confidence in both the timing of arrival and the magnitude of any associated solar wind enhancement.
+
+
+As a result, geomagnetic activity is expected to remain predominantly Quiet to Unsettled, with a slight chance of isolated Active intervals through Day 1 (10 Sep). Activity is then expected to increase late on Day 2 (11 Sep) as the CH92/+ high-speed stream begins to influence Earth, bringing a chance of Active to G1 (Minor Storm) conditions from late 11 Sep into 12 Sep. Thereafter, activity is expected to gradually subside, with predominantly Quiet to Unsettled conditions likely on Day 4 (13 Sep).
+
+
+
+Energetic Particles / Solar Radiation: 
+Solar radiation is now at background, with a very slight chance of further enhancements above the S1/Minor Radiation Storm threshold.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-09-10,2026-09-11,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
