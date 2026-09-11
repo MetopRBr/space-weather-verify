@@ -755,3 +755,21 @@ As a result, geomagnetic activity is expected to remain predominantly Quiet to U
 Energetic Particles / Solar Radiation: 
 Solar radiation is now at background, with a very slight chance of further enhancements above the S1/Minor Radiation Storm threshold.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-09-10,2026-09-11,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-09-11,2026-09-12,NOAA,2.67,Quiet,R1-R2:10% R3+:1%,C,10,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-09-11,2026-09-12,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-09-11,2026-09-12,MetOffice,,G1,Chance of Minor Geomagnetic Storm G1 into UTC weekend and into new UTC working week.,,,"Solar Activity: 
+Solar activity is expected to remain Low to Very Low. There is a gradual increasing slight chance of isolated Moderate-class x-ray flares, given up to two further regions' arriving over the eastern solar horizon over the UTC weekend.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ The geomagnetic forecast is of low confidence, due to a non-recurrent 'coronal hole' fast wind and then a possible CME arrival on Day 4 (14 Sep).
+
+
+All considered, there is a chance of Minor Geomagnetic Storm G1 from a coronal hole later Friday 11 September, and then a slight chance of G1 from a second coronal hole and any minor CME effects at the very end of Day 3 (13 Sep) with the full effects probably falling on Day 4 (14 Sep).
+
+
+
+Energetic Particles / Solar Radiation: 
+There is a slight chance of further enhancements above the S1/Minor Solar Radiation Storm threshold given the most active sunspot region's westward progress and development.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-09-11,2026-09-12,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
