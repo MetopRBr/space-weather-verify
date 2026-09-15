@@ -833,3 +833,24 @@ Geomagnetic activity is expected to be Quiet to Unsettled (Kp0-3) initially. The
 Energetic Particles / Solar Radiation:&nbsp;
 GOES18 &gt;10MeV proton flux is at background with no Solar Radiation storms expected.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-09-14,2026-09-15,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-09-15,2026-09-16,NOAA,4.67,Active,R1-R2:10% R3+:1%,C,10,S1+:20%,False,20,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-09-15,2026-09-16,SIDC,,G1,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-09-15,2026-09-16,MetOffice,,G3,Chance of G1/Minor and slight chance of G2/Moderate days 1 and 3. Likely G1/Minor with chance G2/Moderate and slight chance of G3/Strong day 2. Chance of S1/Minor day 1.,,,"Solar Activity: 
+Solar activity is expected to remain Low or Very Low with only a slight chance of reaching Moderate levels should any isolated Moderate-class flares occur.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+Two coronal mass ejections feature in the forecast, both filament eruption from the southwest quadrant, one from 13 Sep and another from 14 Sep. Both bring a chance of arrival early and late on 16 Sep respectively, with glancing impacts most likely.&nbsp;
+
+
+There are two coronal holes that feature in the forecast, the first is in the southwest followed by one in the northwest. The weak enhancement seen for the majority of the past 24 hours is attributed to the southern coronal hole. The second enhancement is likely now be being seen at Earth, with speeds showing a sharp to strong levels in the last hour. This enhancement is expected to be more considerable. Strong speeds may now be observed from later day 1 until day 3 (15-17 Sep), before gradually easing back to Slightly Elevated levels later day 3 or on day 4 (17-18 Sep).
+
+
+Geomagnetic activity is expected to be Unsettled to Active (Kp3-4), with a chance of G1/Minor storms (Kp5) at times day 1 (15 Sep) due to multiple CH HSS effects, with a slight chance of G2/Moderate (Kp6) storm intervals late in the period should the 13 Sep CME arrive early. On day 2, (16 Sep) combined CH HSS and possible CME glancing blows early and late, bringing likely G1/Minor (Kp5), Chance of G2/Moderate (Kp6) and slight chance of G3/Strong (Kp7) storming. Day 3 (17 Sep) will see lingering HSS effects and perhaps residual CME effects with a chance of G1/Minor (Kp5) and a slight chance of isolated G2/Moderate (Kp6) intervals. Day 4 should return to largely Quiet to Unsettled (Kp0-3) as HSS influences wane.
+
+
+
+Energetic Particles / Solar Radiation: 
+Proton flux has returned to background levels following earlier enhancement. Further enhancements are considered unlikely due to the lack of complexity on the disc, but there is a slight chance of seeing some slight proton enhancement ahead of the possible, glancing CMEs expected on the 16 September.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-09-15,2026-09-16,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
