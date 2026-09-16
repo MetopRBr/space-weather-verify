@@ -854,3 +854,24 @@ Geomagnetic activity is expected to be Unsettled to Active (Kp3-4), with a chanc
 Energetic Particles / Solar Radiation: 
 Proton flux has returned to background levels following earlier enhancement. Further enhancements are considered unlikely due to the lack of complexity on the disc, but there is a slight chance of seeing some slight proton enhancement ahead of the possible, glancing CMEs expected on the 16 September.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-09-15,2026-09-16,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-09-16,2026-09-17,NOAA,4.67,Active,R1-R2:5% R3+:1%,C,5,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-09-16,2026-09-17,SIDC,,G1,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-09-16,2026-09-17,MetOffice,,G3,"Likely G1/Minor with chance G2/Moderate and slight chance of G3/Strong day 1, lowering risk into day 2.&nbsp;",,,"Solar Activity: 
+Solar activity is expected to remain Low or Very Low with only a slight chance of reaching Moderate levels should any isolated Moderate-class flares occur.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+Two coronal mass ejections feature in the forecast, both filament eruptions from the southwest quadrant, one from 13 Sep and another from 14 Sep. Both bring a chance of arrival early and late on day 1 (16 Sep) respectively, with glancing impacts most likely.&nbsp;
+
+
+The recent increases in solar wind speeds is likely due to the Earth skirting along the southern edge of a northerly positioned high speed stream. Similar increases, and subsequent decreases, in wind speeds are possible through days 1-2 (16-17 Sep), and along with any CME arrivals could see periods of Strong wind speeds and increased geomagnetic activity. Wind speeds are then expected to decline back to more background levels from day 3 (18 Sep).
+
+
+Geomagnetic activity is expected to be mostly Quiet to Active (Kp2-4) on day 1 (16 Sep), with a likelihood of G1/Minor (Kp5), Chance of G2/Moderate (Kp6) and slight chance of G3/Strong (Kp7) storming should any CME arrivals combine with ongoing fast wind effects. Day 2 (17 Sep) may see lingering fast wind effects and perhaps residual CME effects with a chance of G1/Minor (Kp5) and a slight chance of isolated G2/Moderate (Kp6) intervals. Days 3 and 4 (18-19 Sep) should see a return to largely Quiet to Unsettled (Kp0-3).
+
+
+
+Energetic Particles / Solar Radiation: 
+Proton flux has returned to background levels following a recent enhancement. Further enhancements are considered unlikely due to the lack of complexity on the disc, but there is a slight chance of seeing some slight proton enhancement ahead of the possible glancing CMEs expected on day 1 (16 Sep).",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-09-16,2026-09-17,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
