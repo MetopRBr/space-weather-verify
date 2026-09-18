@@ -1,6 +1,6 @@
 source,n_scored_days,geomag_accuracy,geomag_underforecast_rate,flare_accuracy,flare_underforecast_rate,proton_hits,proton_misses,proton_false_alarms,proton_correct_rejections
-GFZ,48,,,,,0,0,0,0
-MetOffice,48,,,0.0,0.0,0,4,11,33
-NOAA,48,,,0.75,0.0,0,4,0,44
-SIDC,44,,,,,0,3,0,39
+GFZ,49,,,,,0,0,0,0
+MetOffice,49,,,0.0,0.0,0,4,11,34
+NOAA,49,,,0.735,0.0,0,4,0,45
+SIDC,45,,,,,0,3,0,40
 sidc,4,,,,,0,0,0,0

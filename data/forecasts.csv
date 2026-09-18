@@ -896,3 +896,21 @@ Geomagnetic activity is expected to be mainly Quiet to Unsettled on Day 1 (17 Se
 Energetic Particles / Solar Radiation: 
 GOES18 &gt;10MeV proton flux is at background levels and not expected to change significantly during the forecast period.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-09-17,2026-09-18,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-09-18,2026-09-19,NOAA,2.67,Quiet,R1-R2:5% R3+:1%,C,5,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-09-18,2026-09-19,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-09-18,2026-09-19,MetOffice,,Unsettled,No significant space weather activity expected.,,,"Solar Activity: 
+Solar activity is expected to remain Very Low or Low.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+Slightly Elevated speeds are expected through Day 1 (18 Sep) with a slow, erratic decline thereafter as the coronal hole fast winds ease.
+
+
+Geomagnetic activity is expected to be mainly Quiet to Unsettled through the period.
+
+
+
+Energetic Particles / Solar Radiation: 
+No solar radiation storms are expected through the period.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-09-18,2026-09-19,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
