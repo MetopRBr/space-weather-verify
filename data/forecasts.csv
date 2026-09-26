@@ -1042,3 +1042,20 @@ There are no Earth-directed CMEs. Ongoing weak fast winds at first, are expected
 Energetic Particles / Solar Radiation: 
 No Solar Radiation Storms are expected with the count rate of energetic particles (high energy protons) persisting at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-09-25,2026-09-26,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-09-26,2026-09-27,NOAA,3.0,Unsettled,R1-R2:10% R3+:1%,C,10,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-09-26,2026-09-27,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-09-26,2026-09-27,MetOffice,,G1,"Chance of G1 Minor Storms, either later day 1 or early day 2 (26-27 Sep), from the onset of fast solar winds.",,,"Solar Activity:
+ Solar activity is expected to be Low to Very Low.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+There are no Earth-directed CMEs. Earth is expected to see the transition into the fast winds from a coronal hole later day 1 or into day 2 (26-27 Sep), with Slightly Elevated solar winds likely becoming Elevated. These winds then easing later day 2 through to day 4 (27-29 Sep). Geomagnetic activity is expected to be Quiet to Unsettled at first, but soon increasing to be Unsettled to Active, with a chance of G1 Minor Storms on day 1 (26 Sep). This conditions perhaps continuing into day 2 (27 Sep), before declining to be mostly Quiet thereafter.
+&nbsp;
+
+
+
+
+Energetic Particles / Solar Radiation: 
+No Solar Radiation Storms are expected with the count rate of energetic particles (high energy protons) persisting at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-09-26,2026-09-27,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
