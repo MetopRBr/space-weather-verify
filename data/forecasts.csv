@@ -1059,3 +1059,18 @@ There are no Earth-directed CMEs. Earth is expected to see the transition into t
 Energetic Particles / Solar Radiation: 
 No Solar Radiation Storms are expected with the count rate of energetic particles (high energy protons) persisting at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-09-26,2026-09-27,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-09-27,2026-09-28,NOAA,2.0,Quiet,R1-R2:10% R3+:1%,C,10,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-09-27,2026-09-28,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-09-27,2026-09-28,MetOffice,,G1,"Slight chance of G1 Minor Storm on Day 1 (27 Sep), from the onset of fast solar winds.",,,"Solar Activity: 
+Solar activity is expected to be Low to Very Low.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ There are no Earth-directed CMEs. Earth may see the transition into the fast winds from CH97/- on Day 1 (27 Sep), with Slightly Elevated solar winds possibly becoming Elevated, but there is uncertainty about this. The solar winds may slowly ease Day 1 through to Day 4 (27-30 Sep). Geomagnetic activity is expected to be Quiet to Unsettled at first, perhaps becoming Unsettled to Active, with a slight chance of G1 Minor Storms Day 1 (27 Sep) if connection to CH97/- occurs. After this declining to become mostly Quiet conditions from Day 2 (28 Sep).
+
+
+
+Energetic Particles / Solar Radiation: 
+GOES-18 &gt;10MeV proton flux is expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-09-27,2026-09-28,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
