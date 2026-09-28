@@ -1074,3 +1074,18 @@ Solar Wind / Geomagnetic Activity:
 Energetic Particles / Solar Radiation: 
 GOES-18 &gt;10MeV proton flux is expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-09-27,2026-09-28,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-09-28,2026-09-29,NOAA,2.0,Quiet,R1-R2:1% R3+:1%,C,1,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-09-28,2026-09-29,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-09-28,2026-09-29,MetOffice,,Active,No significant activity.,,,"Solar Activity: 
+Solar activity is expected to be Low to Very Low.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ There are no Earth-directed Coronal Mass Ejections. Background slow wind conditions are most likely to persist. A coronal hole may still give a weak enhancement on day 1 (28 Sep), however this is now considered unlikely. Geomagnetic activity is expected to be predominately Quiet with isolated Unsettled intervals. If any enhancement is observed, a spell of Unsettled with isolated Active intervals is possible.
+
+
+
+Energetic Particles / Solar Radiation: 
+GOES-18 &gt;10MeV proton flux is expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-09-28,2026-09-29,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
