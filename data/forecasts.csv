@@ -1107,3 +1107,21 @@ Geomagnetic activity is expected to be mainly Quiet perhaps with isolated Unsett
 Energetic Particles / Solar Radiation: 
 Solar radiation is expected to persist at background levels.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-09-29,2026-09-30,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-09-30,2026-10-01,NOAA,1.67,Quiet,R1-R2:15% R3+:1%,C,15,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-09-30,2026-10-01,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-09-30,2026-10-01,MetOffice,,G2,Chance of G1/Minor geomagnetic storms Days 2-4 (01-03 Oct).,,,"Solar Activity: 
+Activity is likely to be Low or Very Low, with a chance of further Common-class flares and a slight chance of Moderate-class flares.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ A CME which occurred around 28/1430 UTC is likely to give Earth a glancing blow either late Day 2 (01 Oct) or more likely early Day 3 (02 Oct). A further CME which emerged on 30 September is currently under analysis but appears more likely to miss Earth. No coronal hole fast wind enhancements are expected until either later on Day 4 (03 Oct) or just after the end of this period, with wind speeds likely reaching 500-600 km/s.
+
+
+Geomagnetic activity is expected to be mainly Quiet to Unsettled at first. This becoming Unsettled to Active with a chance of G1/Minor storm and a slight chance of G2/Moderate storm intervals on Days 2-3 (01-02 Oct), should we see glancing influence from the 28 Sep CME. Activity likely declining later Day 3 into early Day 4 (02-03 Oct), before potentially increasing again later Day 4 if we see the fast wind.
+
+
+
+Energetic Particles / Solar Radiation: 
+GOES-18 &gt;10MeV proton flux is expected to persist at background levels.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-09-30,2026-10-01,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
