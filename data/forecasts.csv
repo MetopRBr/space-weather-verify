@@ -1161,3 +1161,18 @@ Solar Wind / Geomagnetic Activity:
 Energetic Particles / Solar Radiation: 
 No Solar Radiation Storms are forecast with the count rate of energetic particles (high energy protons) persisting at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-02,2026-10-03,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-03,2026-10-04,NOAA,4.67,Active,R1-R2:5% R3+:1%,C,5,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-03,2026-10-04,SIDC,,G1,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-03,2026-10-04,MetOffice,,G2,"G1 Minor Geomagnetic Storms likely, mainly day 2 (04 Oct)",,,"Solar Activity: 
+Very Low activity is expected, with a chance of rising to Low with isolated Common class flares.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ There are no Earth directed CMEs. The next enhancement is expected to be from the onset of fast winds from a coronal hole, connecting either later day 1 (03 Oct) or more likely on day 2 (04 Oct). Solar winds are likely to become Elevated to Strong, at 550-600km/s, before gradually easing day 4 (06 Oct). Geomagnetic activity is expected to be Quiet to Unsettled at first, with any ongoing CME influence bringing a slight chance of Active intervals. Onset of the fast winds will then bring a spell of Unsettled to Active, with G1 Minor Storm intervals and a slight chance of G2 Moderate Storms. Any activity easing day 3 (05 Oct), to become mainly Quiet to Unsettled day 4 (06 Oct).&nbsp;
+
+
+
+Energetic Particles / Solar Radiation: 
+No Solar Radiation Storms are forecast with the count rate of energetic particles (high energy protons) persisting at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-03,2026-10-04,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
