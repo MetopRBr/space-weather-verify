@@ -1197,3 +1197,18 @@ Geomagnetic activity is expected to be Unsettled to Active (Kp3-4), with isolate
 Energetic Particles / Solar Radiation: 
 No Solar Radiation Storms are forecast with the count rate of energetic particles (high energy protons) persisting at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-04,2026-10-05,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-05,2026-10-06,NOAA,3.67,Unsettled,R1-R2:5% R3+:1%,C,5,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-05,2026-10-06,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-05,2026-10-06,MetOffice,,G1,Further G1 Minor storm intervals possible early day 1 (05 Oct).,C,,"Solar Activity: 
+Low or Very Low activity is expected, with a chance of C-class flares.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ There are no Earth directed Coronal Mass Ejections, though there was one from the far-side in the northeast around 05/0722 UTC. This is unlikely to reach Earth due to it's position. Fast winds of CH98/+ will persist early day 1 (05 Oct), but are then expected to gradually ease through the period with mainly Background winds later day 3 and day 4 (07-08 Oct). Active to G1 Minor Storms at first, will ease to Quiet to Unsettled with a chance of Active intervals by day 2 (06 Oct), then mainly Quiet to Unsettled day 3-4 (07-08 Oct).&nbsp;
+
+
+
+Energetic Particles / Solar Radiation: 
+GOES-18 &gt;10MeV proton flux is expected to remain at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-05,2026-10-06,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
