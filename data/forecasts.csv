@@ -1233,3 +1233,24 @@ Increasingly quiet geomagnetic activity is forecast until the CME arrival, with 
 Energetic Particles / Solar Radiation: 
 There is a daily slight chance of S1 Minor Solar Radiation Storms with the increase in solar activity. This should increase further with the westward progression of the two most complex sunspot regions - they will connect more effectively with Earth should any events occur.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-06,2026-10-07,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-07,2026-10-08,NOAA,1.67,Quiet,R1-R2:45% R3+:5%,C,45,S1+:10%,False,10,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-07,2026-10-08,SIDC,,Quiet,,,,Warning condition,,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-07,2026-10-08,MetOffice,,G2,Chance of G2/Moderate storms Day 3 (09 Oct). Daily Chance of R1 Minor radio blackouts.&nbsp;,,,"Solar Activity: 
+There is a daily chance of Moderate-class flares and very slight chance of Strong-class, with the most likely source being the central sunspot regions.&nbsp;
+
+
+
+Solar Wind / Geomagnetic Activity:
+ The 06/0610UTC CME has been analysed with an arrival time most likely in the early UTC hours of Day 3 (09 Oct). There are no other Earth-directed CMEs expected at present.
+
+
+Residual waning coronal hole fast winds are otherwise expected to ease to Background through 07-08 October. Other coronal hole influence is now unlikely to be a significant factor in the forecast, with CH01 closing, and the final part of the forecast period instead comprising CME activity.
+
+
+Mostly Quiet geomagnetic activity is forecast until the CME arrival, with an Expected chance of G1/Minor Storm, and a Chance of G2/Moderate storm at peak on Day 3 (09 Oct). Most of the activity will likely be confined to this UTC day, before easing into the start of the UTC weekend.
+
+
+
+Energetic Particles / Solar Radiation: 
+There is a daily slight chance of S1 Minor Solar Radiation Storms, with this gradually increasing due to the westward progression of the two most complex sunspot regions.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-07,2026-10-08,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
