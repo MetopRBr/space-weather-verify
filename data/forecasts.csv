@@ -1293,3 +1293,24 @@ Geomagnetic activity is expected to be mostly Quiet until the 06 Oct CME arrives
 Energetic Particles / Solar Radiation: 
 There is a slight chance of S1/Minor Solar Radiation Storms throughout the period.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-09,2026-10-10,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-10,2026-10-11,NOAA,4.67,Active,R1-R2:55% R3+:10%,M,55,S1+:10%,False,10,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-10,2026-10-11,SIDC,,Active,,,,Warning condition,,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-10,2026-10-11,MetOffice,,G2,Chance G1/Minor Geomagnetic Storming throughout. R1/Radio Blackouts Likely throughout.&nbsp;,,,"Solar Activity: 
+Solar activity is expected to be Low to Moderate, with further Moderate-class flares likely and a slight chance of Strong flares, mainly from the complex region in the northwest, but perhaps the newly numbered region near the southeast limb.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ Two coronal mass ejections feature in the forecast period, the first giving a possible glancing blow during the latter half of Day 1 (10 Oct), though it's possible this CME arrived early corresponding with the transient feature observed around 10/0200UTC. The Second giving a possible glancing blow later Day 2 (11 Oct), though confidence is low for timing of both features.
+
+
+Solar wind speeds are currently at Slightly-Elevated levels. Speeds likely easing to Background at times. Away from coronal mass ejection influence. The next significant coronal hole, in the east may arrive late on Day 3 (12 Oct), but more likely Day 4 (13 Oct), with speeds reaching Elevated, or perhaps Strong.
+
+
+Geomagnetic activity is expected to be mostly Quiet to Unsettled (Kp0-3) through the period. There is a daily Likelihood of Active (Kp4) periods, a Chance of G1/Minor storming (Kp5), and a Slight Chance of G2/Moderate storming (Kp6) due to glancing coronal mass ejection influences Day 1 and Day 2 (10-11 Oct), then coronal hole fast winds Day 3 and Day 4 (12-13 Oct).
+
+
+
+Energetic Particles / Solar Radiation: 
+There is a slight chance of S1/Minor Solar Radiation Storms throughout the period.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-10,2026-10-11,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
