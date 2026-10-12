@@ -1335,3 +1335,24 @@ Geomagnetic activity is expected to be elevated initially in the wake of the CME
 Energetic Particles / Solar Radiation: 
 There is a slight chance of S1/Minor Solar Radiation Storms throughout the period.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-11,2026-10-12,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-12,2026-10-13,NOAA,5.0,G1,R1-R2:50% R3+:10%,M,50,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-12,2026-10-13,SIDC,,G1,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-12,2026-10-13,MetOffice,,G3,Chance of G1/Kp5 Geomagnetic activity in the coming days. Chance of R1-R2/Minor-Moderate Radio Blackouts.,,,"Solar Activity: 
+Mainly Low, with a chance of Moderate activity should any isolated Moderate-class flares occur, most likely from moderately sized regions in the far northwest and southeast disc.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ A moderately-fast CME that left the Sun on 10 Oct, associated with a Moderate flare from a region currently in the far northeast disc is likely to give Earth a glancing impact on Day 1 (12 Oct). A moderate-speed CME that left the Sun early on 12 Oct is likely to give Earth a flanking blow on Day 3 (14 Oct).
+
+
+Solar wind speeds are currently at Slightly Elevated levels and easing following declining CME and likely coronal hole (combined) influences of recent days. Solar wind speeds should continue to decline until the likely arrival of the 10 Oct CME and/or onset of the fast winds of the next coronal hole feature. The latter is expected to arrive later Day 1 (12 Oct), or Day 2 (13 Oct). Speeds from this coronal hole are expected to reach Elevated to Strong levels, although due to its (negative) polarity, it is not favoured for significant geomagnetic enhancement at this time of year.
+
+
+Geomagnetic activity is expected to be Quiet to Unsettled initially, however, likely increasing on Day 1 (12 Oct), due to CME and/or coronal hole influence. Following the onset of either, or both combined, Active/Kp4 to G1/Kp5 conditions are likely to occur, with a Chance of G2/Moderate intervals (Kp6) and a Slight Chance of isolated G3/Strong (Kp7) storm intervals. Through Days 2 to 4 (13-15 Oct), there is a reducing Chance of G1/Kp5 and Slight Chance of G2/Kp6 geomagnetic conditions but a further potential CME arrival on Day 3 (14 Oct) could temporarily boost activity levels again.
+
+
+
+Energetic Particles / Solar Radiation: 
+There is a slight chance of S1/Minor Solar Radiation Storms throughout the period.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-12,2026-10-13,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
