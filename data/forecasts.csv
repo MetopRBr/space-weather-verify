@@ -1356,3 +1356,24 @@ Geomagnetic activity is expected to be Quiet to Unsettled initially, however, li
 Energetic Particles / Solar Radiation: 
 There is a slight chance of S1/Minor Solar Radiation Storms throughout the period.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-12,2026-10-13,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-13,2026-10-14,NOAA,4.0,Active,R1-R2:35% R3+:5%,C,35,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-13,2026-10-14,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-13,2026-10-14,MetOffice,,G2,"Chance of Minor geomagnetic Storms (G1) today, perhaps extending through midweek UTC.",,,"Solar Activity: 
+There is a chance of Moderate activity initially should any isolated Moderate-class flares occur, most likely from the western solar horizon sunspot group at first, and perhaps then the one nearing the middle of the Sun. The flare risk likely declining somewhat into the period
+
+
+
+Solar Wind / Geomagnetic Activity:
+ There are up to three CMEs currently forecast as potentially Earth directed two of which likely remain in transit. Glancing impact from the first CME, associated with an event on the 10 October, is ongoing and likely declining, one from 12 October due as a glance on 14 October, and a second minor 12 October CME that falls outside the four-day period.
+
+
+The arrival of the first CME overnight saw relatively muted geomagnetic enhancement, but it remains the case that this could combine with the expected imminent onset of faster solar winds during Day 1 (13 Oct)
+
+
+A chance of G1 Minor geomagnetic storm conditions in the current UTC day from the possibly combined effects of the 10 October CME and the fast wind, perhaps peaking at a slight chance of Moderate storm G2. These conditions may be extended in time by any glancing influence of the 12 October large 'filament' on Wednesday 14 October, before a more decided reduction in risk into the latter part of the UTC working week. Any third CME from the smaller 12 October filament falls outside the period.
+
+
+
+Energetic Particles / Solar Radiation:&nbsp;
+There is a slight chance of S1/Minor Solar Radiation Storms throughout the period.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-13,2026-10-14,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
