@@ -1377,3 +1377,18 @@ A chance of G1 Minor geomagnetic storm conditions in the current UTC day from th
 Energetic Particles / Solar Radiation:&nbsp;
 There is a slight chance of S1/Minor Solar Radiation Storms throughout the period.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-13,2026-10-14,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-14,2026-10-15,NOAA,3.33,Unsettled,R1-R2:20% R3+:5%,C,20,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-14,2026-10-15,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-14,2026-10-15,MetOffice,,G1,Slight Chance of G1 Minor Storms day 1 (14 Oct) from a weak Coronal Mass Ejection arrival. Chance of isolated Moderate class flares.,,,"Solar Activity: 
+Low activity is likely to continue with a chance of rising to Moderate, mainly due to any reactivation of the large region in the southeast.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ There is the slight chance of a glancing CME on day 1 (14 Oct), which was associated with a filament eruption from the southeast disc on 12 Oct, however, this is only moderate confidence. Otherwise ongoing fast winds of CH02/- are expected days 1-2 (14-15 Oct), before easing days 3-4 (16-17 Oct). Geomagnetic activity is expected to be mainly Quiet to Unsettled with a chance of Active intervals day 1-2 (14-15 Oct), and a slight chance of G1 Minor Storm intervals if the CME glance is observed. Activity then easing to be mainly Quiet days 3-4 (16-17 Oct).
+
+
+
+Energetic Particles / Solar Radiation:
+ There is only a slight chance of Solar Radiation Storms through the period, with the count rate of energetic particles (high energy protons) expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-14,2026-10-15,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
