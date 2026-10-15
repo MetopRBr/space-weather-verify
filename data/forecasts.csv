@@ -1392,3 +1392,18 @@ Solar Wind / Geomagnetic Activity:
 Energetic Particles / Solar Radiation:
  There is only a slight chance of Solar Radiation Storms through the period, with the count rate of energetic particles (high energy protons) expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-14,2026-10-15,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-15,2026-10-16,NOAA,2.67,Quiet,R1-R2:20% R3+:5%,C,20,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-15,2026-10-16,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-15,2026-10-16,MetOffice,,Active,Chance of isolated Moderate class flares.,,,"Solar Activity: 
+Low activity is likely to continue with a chance of rising to Moderate, with any significant flares most likely from the large region in the southeast.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ No Earth directed CMEs are expected. Ongoing Slightly Elevated solar winds will continue to ease possibly reaching Background levels by late Day 4 (18 Oct). Geomagnetic activity is expected to be Quiet to Unsettled, with a slight chance of Active intervals day 1 (15 Oct). Activity then declines to become mainly Quiet from day 2 (16 Oct) onwards.
+
+
+
+Energetic Particles / Solar Radiation:
+ There is only a slight chance of Solar Radiation Storms through the period, with the count rate of energetic particles (high energy protons) expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-15,2026-10-16,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
