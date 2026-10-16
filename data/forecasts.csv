@@ -1407,3 +1407,18 @@ Solar Wind / Geomagnetic Activity:
 Energetic Particles / Solar Radiation:
  There is only a slight chance of Solar Radiation Storms through the period, with the count rate of energetic particles (high energy protons) expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-15,2026-10-16,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-16,2026-10-17,NOAA,1.67,Quiet,R1-R2:25% R3+:10%,C,25,S1+:10%,False,10,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-16,2026-10-17,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-16,2026-10-17,MetOffice,,Active,Chance of isolated Moderate class flares.,,,"Solar Activity: 
+Low activity is likely to continue with a chance of rising to Moderate, with any significant flares most likely from the large region currently centre disc.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ No Earth directed CMEs are expected. Ongoing Slightly Elevated solar winds will continue to ease to reach Background levels by late Day 3 or early Day 4 (18-19 Oct). Geomagnetic activity is expected to be Quiet&nbsp; to Unsettled, with a slight chance of Active intervals early Day 1 (16 Oct). From Day 2 (17 Oct) mainly Quiet conditions are expected. However, late Day 4 there is a chance that a new solar wind enhancement will arrive. If this did occur geomagnetic activity would increase Unsettled to Active, with a slight chance of a Minor geomagnetic storm.
+
+
+
+Energetic Particles / Solar Radiation:
+ There is only a slight chance of Solar Radiation Storms through the period, with the count rate of energetic particles (high energy protons) expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-16,2026-10-17,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
