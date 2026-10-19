@@ -1455,3 +1455,18 @@ There are no Earth-directed CMEs. Slightly elevated solar winds are expected to 
 Energetic Particles / Solar Radiation: 
 GOES-18 &gt;10MeV protons are expected to persist at Background.&nbsp;",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-18,2026-10-19,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-19,2026-10-20,NOAA,4.67,Active,R1-R2:30% R3+:10%,C,30,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-19,2026-10-20,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-19,2026-10-20,MetOffice,,G1,Chance of isolated M-class flares. Chance of G1 Minor Storm days 2-3 (20-21 Oct),M,,"Solar Activity:
+ Low to Moderate activity is expected with an ongoing chance of isolated Moderate-class flares.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+There are no Earth-directed CMEs. Background solar winds at first, are expected to be followed by the the onset of the fast winds of a coronal hole, most likely day 2 (20 Oct), easing later day 3 or day 4 (21-22 Oct). Geomagnetic activity is expected to be mainly Quiet (Kp 0-2) until this onset, then rising to Unsettled to Active (Kp3-4) with a chance of G1/Minor Storm (Kp5) intervals. Activity easing to Quiet to Unsettled by day 4 (Kp1-3).
+
+
+
+Energetic Particles / Solar Radiation:&nbsp;
+No Solar Radiation storms are forecast with the count rate of energetic particles expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-19,2026-10-20,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
