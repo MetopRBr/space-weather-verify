@@ -1470,3 +1470,18 @@ There are no Earth-directed CMEs. Background solar winds at first, are expected 
 Energetic Particles / Solar Radiation:&nbsp;
 No Solar Radiation storms are forecast with the count rate of energetic particles expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-19,2026-10-20,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-20,2026-10-21,NOAA,3.67,Unsettled,R1-R2:25% R3+:5%,C,25,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-20,2026-10-21,SIDC,,Active,,,,Warning condition,,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-20,2026-10-21,MetOffice,,G1,Chance of isolated M-class flares. Chance of G1 Minor Storm days 1-2 (20-21 Oct),M,,"Solar Activity:
+ Low to Moderate activity is expected with an ongoing chance of isolated Moderate-class flares.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+There are no Earth-directed CMEs. Background solar winds at first, are expected to be followed by the the onset of the fast winds from a coronal hole, most likely later day 1 (20 Oct), and into day 2 (21 Oct) before easing day 3-4 (22-23 Oct). Geomagnetic activity is expected to be mainly Quiet (Kp 0-2) until this onset, then rising to Unsettled to Active (Kp3-4) with a chance of G1/Minor Storm (Kp5) intervals. Activity easing to Quiet to Unsettled by day 4 (Kp1-3).
+
+
+
+Energetic Particles / Solar Radiation:&nbsp;
+No Solar Radiation storms are forecast with the count rate of energetic particles expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-20,2026-10-21,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
