@@ -1485,3 +1485,21 @@ There are no Earth-directed CMEs. Background solar winds at first, are expected 
 Energetic Particles / Solar Radiation:&nbsp;
 No Solar Radiation storms are forecast with the count rate of energetic particles expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-20,2026-10-21,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-21,2026-10-22,NOAA,3.67,Unsettled,R1-R2:25% R3+:5%,C,25,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-21,2026-10-22,SIDC,,Active,,,,Warning condition,,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-21,2026-10-22,MetOffice,,G1,Chance of isolated M-class flares. Slight Chance of G1 Minor Storm day 1 (21 Oct).,M,,"Solar Activity:
+ Low to Moderate activity is expected with an ongoing chance of isolated Moderate-class flares.
+
+
+
+Solar Wind / Geomagnetic Activity:&nbsp;
+There are no Earth-directed CMEs. Overall, solar winds are expected to remain at or close to Background levels, with some weak influence from a coronal hole fast stream expected on day 1 (21 Oct), which may see Slightly Elevated or Elevated solar wind speeds. Any increase in solar wind speeds is expected to ease by day 2 (22 Oct).&nbsp;
+
+
+Geomagnetic activity is expected to be mostly Quiet to Unsettled on day 1 (21 Oct), with a Chance of Active intervals and a slight chance of a G1/Minor Storm interval should any further influence from CH04/+ arise. Activity then expected to be mostly Quiet for much of the forecast period, with a slight chance of a further enhancement later on day 4 (24 Oct).
+
+
+
+Energetic Particles / Solar Radiation:&nbsp;
+No Solar Radiation storms are forecast with the count rate of energetic particles expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-21,2026-10-22,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
