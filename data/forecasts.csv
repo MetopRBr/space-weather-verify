@@ -1563,3 +1563,21 @@ Geomagnetic activity is expected to be mostly Quiet to Unsettled at first. Later
 Energetic Particles / Solar Radiation:&nbsp;
 No solar radiation storms are forecast with the count rate of energetic particles expected to persist at background levels.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-24,2026-10-25,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-25,2026-10-26,NOAA,3.0,Unsettled,R1-R2:10% R3+:1%,C,10,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-25,2026-10-26,SIDC,,Active,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-25,2026-10-26,MetOffice,,G1,Slight chance of G1/Minor Storms Day 1 (25 Oct).,,,"Solar Activity:
+ Low or Very Low activity is expected during the four-day forecast period, with a slight chance of increasing to Moderate levels.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+During 21 Oct, a slow CME was seen leaving the Sun's northern-central disc. Analysis of the CME suggests it will mostly pass behind Earth's orbit, but a glancing blow is possible on Day 1 (25 Oct). Currently solar winds are Slow. A minor enhancement to Slightly Elevated levels is possible on Days 1 and 2 (25 and 26 Oct) due to a small trans-equatorial coronal hole in the western disc, otherwise Slow solar winds should be largely predominant, if not persistent throughout the forecast period.&nbsp;
+
+
+Geomagnetic activity is expected to be Quiet (Kp 0-2) at first, then possibly becoming Unsettled to Active (Kp 3-4) on Day 1 (25 Oct), with a slight chance of G1/Minor Storms (Kp5) intervals given the potential for CME and/or coronal hole onset effects. Between Days 2 and 4 (26 and 28 Oct) geomagnetic conditions are expected to be predominantly Quiet (Kp 0-2).
+
+
+
+Energetic Particles / Solar Radiation:&nbsp;
+No solar radiation storms are forecast with the count rate of energetic particles expected to persist at Background levels.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-25,2026-10-26,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
