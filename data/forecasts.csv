@@ -1617,3 +1617,21 @@ Geomagnetic activity is expected to be Quiet (Kp 0-2) until later day 3 or day 4
 Energetic Particles / Solar Radiation:&nbsp;
 No solar radiation storms are forecast with the count rate of energetic particles expected to persist at Background levels.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-10-27,2026-10-28,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-10-28,2026-10-29,NOAA,1.67,Quiet,R1-R2:5% R3+:1%,C,5,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-10-28,2026-10-29,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-10-28,2026-10-29,MetOffice,,G2,G1 Minor Storm conditions likely day 4 (31 Oct).&nbsp;,,,"Solar Activity:
+ Low to Very Low activity is expected, with no significant sunspot regions currently on the Earth-facing disc.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+A CME which left the Sun late on 26 Oct could give a glancing impact on day 3 (30 Oct), although the timing of any potential arrival is low confidence. This is expected to be followed by a connection to a large trans-equatorial coronal hole, with Elevated or Strong solar winds likely peaking on day 4 (31 Oct).
+
+
+Quiet geomagnetic conditions are expected day 1-2 (28-29 Oct), before any potential CME glance on day 3 (30 Oct) is followed by the fast winds of CH07/+, increasing activity later that day and more likely on day 4 (31 Oct), to Active to G1 Minor Storm. There is a slight chance of G2 Moderate storms.&nbsp;
+
+
+
+Energetic Particles / Solar Radiation:&nbsp;
+No solar radiation storms are forecast with the count rate of energetic particles expected to persist at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-10-28,2026-10-29,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
