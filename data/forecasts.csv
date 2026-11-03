@@ -1725,3 +1725,21 @@ Mostly Quiet to Unsettled geomagnetic activity is expected for much of the perio
 Energetic Particles / Solar Radiation:&nbsp;
 No solar radiation storms are forecast with the count rate of energetic particles expected to persist at background levels.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-11-02,2026-11-03,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-11-03,2026-11-04,NOAA,2.0,Quiet,R1-R2:5% R3+:1%,C,5,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-11-03,2026-11-04,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-11-03,2026-11-04,MetOffice,,G1,Slight Chance of G1/Minor Storm on Days 3-4 (05-06 Nov).,M,,"Solar Activity:
+ Very Low or Low activity is likely to continue, although there is a rising slight chance of M-class flaring, mainly from the more complex region in the southeast of the disc.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+A CME which left the Sun on 01 Nov is a most likely miss, but may glance Earth during Day 3 (05 Nov). Otherwise, the current coronal hole fast wind has now waned with solar winds having returned to slow speeds. Some minor fast wind influence is possible during Day 3 (05 Nov), perhaps coinciding with any minor CME influence. Another coronal hole fast wind should then arrive during Day 4 (06 Nov).
+
+
+Geomagnetic activity is expected to be Quiet at first, perhaps becoming Unsettled to Active with a slight chance of G1/Minor Storms on Days 3-4, from any minor CME and CH09 influence.
+
+
+
+Energetic Particles / Solar Radiation: 
+No solar radiation storms are expected.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-11-03,2026-11-04,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
