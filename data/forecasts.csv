@@ -1743,3 +1743,21 @@ Geomagnetic activity is expected to be Quiet at first, perhaps becoming Unsettle
 Energetic Particles / Solar Radiation: 
 No solar radiation storms are expected.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-11-03,2026-11-04,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-11-04,2026-11-05,NOAA,3.67,Unsettled,R1-R2:25% R3+:10%,C,25,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-11-04,2026-11-05,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-11-04,2026-11-05,MetOffice,,G1,&nbsp;Chance of G1 Minor geomagnetic storms to end UTC working week.,,,"Solar Activity:
+ Low activity is likely to continue, although there is a chance of isolated Moderate flaring, both from the possible return of regions over the eastern solar horizon, and from sunspot region AR4566 given its increasing complexity.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+A CME which left the Sun on 01 Nov is a most likely miss, but may glance Earth during Thursday 05 November. Otherwise, some minor fast wind influence is possible around the same time.&nbsp;Later in the forecast period the stronger and more assured onset of a second fast wind is expected.
+
+
+Geomagnetic activity expected to remain generally Quiet to Unsettled to start. There is a rising Chance of Active to G1 Minor geomagnetic storm intervals into the second half of the period given the potential for more significant fast solar winds .
+
+
+
+Energetic Particles / Solar Radiation: 
+No solar radiation storms are expected.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-11-04,2026-11-05,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
