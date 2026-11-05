@@ -1761,3 +1761,21 @@ Geomagnetic activity expected to remain generally Quiet to Unsettled to start. T
 Energetic Particles / Solar Radiation: 
 No solar radiation storms are expected.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-11-04,2026-11-05,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-11-05,2026-11-06,NOAA,4.67,Active,R1-R2:35% R3+:10%,C,35,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-11-05,2026-11-06,sidc,,,,,,,,,FETCH FAILED: The read operation timed out
+2026-11-05,2026-11-06,MetOffice,,G1,Chance of R1/Radio Blackouts throughout.&nbsp;Chance of G1 Minor Geomagnetic Storms Days 2-4.&nbsp;,,,"Solar Activity:
+ Low activity is likely to continue, although there is a chance of isolated Moderate flaring.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+A coronal mass ejection which left the Sun on 01 Nov is a most likely miss, but may glance Earth during Thursday 05 November. The next expected fast wind is most likely to arrive day 2 (06 Nov), with solar winds expected to become strong either day 2 or day 3 (06 or 07 Nov), likely lasting until day 4 (08 Nov).
+
+
+Geomagnetic activity expected to remain generally Quiet to Unsettled (Kp1-3) to start. Active (Kp4) intervals are then likely, with a chance of G1/Minor geomagnetic storm (Kp5) intervals from days 2-4 (06-08 Nov), with peak risk most likely on day 3 (07 Nov).
+
+
+
+Energetic Particles / Solar Radiation: 
+No solar radiation storms are expected.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-11-05,2026-11-06,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
