@@ -1779,3 +1779,21 @@ Geomagnetic activity expected to remain generally Quiet to Unsettled (Kp1-3) to 
 Energetic Particles / Solar Radiation: 
 No solar radiation storms are expected.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-11-05,2026-11-06,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-11-06,2026-11-07,NOAA,5.0,G1,R1-R2:35% R3+:10%,C,35,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-11-06,2026-11-07,SIDC,,G1,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-11-06,2026-11-07,MetOffice,,G1,Chance of Moderate-class flares throughout. Chance of G1/Minor Geomagnetic Storms throughout.,,,"Solar Activity:
+ Low to Moderate activity is expected, with a chance of further Moderate-class flares from the most complex region on the disc, and a slight chance of Strong flares.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+&nbsp;The next feature of interest is a coronal hole fast wind. The onset time is low confidence, perhaps with a weak onset during Day 1 (06 Nov), followed by a stronger fast wind into Day 2 (07 Nov). Solar winds are expected to become strong, likely reaching 550-650 km/s, and probably lasting for much of the period once established.
+
+
+Geomagnetic activity is expected to be mostly Quiet to Unsettled (Kp 1-3) at first, becoming Unsettled to Active (Kp 3-4) with a chance of G1/Minor Storm (Kp 5) intervals as the fast wind sets in, then with activity possibly declining later in the period.&nbsp;
+
+
+
+Energetic Particles / Solar Radiation: 
+Solar radiation is likely to remain at background levels, but there is a rising slight chance of exceeding the S1/Minor Radiation Storm threshold.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-11-06,2026-11-07,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
