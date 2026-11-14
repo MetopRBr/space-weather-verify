@@ -1917,3 +1917,21 @@ Mainly Quiet (Kp0-2) geomagnetic conditions are expected until connection with f
 Energetic Particles / Solar Radiation:
  Solar radiation storms are not expected, with just a very slight chance of exceeding the S1/Minor radiation storm level.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-11-13,2026-11-14,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-11-14,2026-11-15,NOAA,1.67,Quiet,R1-R2:25% R3+:5%,C,25,S1+:5%,False,5,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-11-14,2026-11-15,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-11-14,2026-11-15,MetOffice,,G1,Slight chance of Moderate class flares.,M,,"Solar Activity:
+ Activity is expected to be mostly at Low levels, with a slight chance of isolated low-level M-class flares.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ There are no Earth-directed CMEs. Solar winds have now eased to background levels with no enhancements expected until Days 3 and 4 (16-17 Nov), when fast winds from CH10/+ may connect with Earth.&nbsp;
+
+
+Mainly Quiet (Kp0-2) geomagnetic conditions are expected until connection with fast winds from CH10/+, possibly on Days 3-4 (16-17 Nov), at which point Unsettled to Active intervals (Kp3-4) are possible with only a slight chance of an isolated G1/Minor geomagnetic storm (Kp5).&nbsp;
+
+
+
+Energetic Particles / Solar Radiation:
+ Solar radiation storms are not expected, with just a very slight chance of exceeding the S1/Minor radiation storm level.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-11-14,2026-11-15,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
