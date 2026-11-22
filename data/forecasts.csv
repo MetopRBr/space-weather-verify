@@ -2046,3 +2046,18 @@ A weak coronal mass ejection from the eruption on 19 Nov has the potential to gl
 Energetic Particles / Solar Radiation: 
 No solar radiation storms are expected, with the count rate of energetic particles (high energy protons) remaining at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-11-21,2026-11-22,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-11-22,2026-11-23,NOAA,4.0,Active,R1-R2:10% R3+:1%,C,10,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-11-22,2026-11-23,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-11-22,2026-11-23,MetOffice,,Active,No significant activity expected.,C,,"Solar Activity:
+ Activity is likely to persist Very Low with only a chance of rising to Low with isolated C-class flares.
+
+
+
+Solar Wind / Geomagnetic Activity: 
+A weak CME from the filament eruption on 19 Nov has the potential to glance Earth on day 2 (23 Nov). The current weak enhancement expected to soon ease, with slow wind conditions then persisting throughout, aside from any CME glance. Mainly Quiet geomagnetic activity is likely (Kp0-2) with a chance for isolated Unsettled intervals (Kp3). Any CME glance, will bring a chance for a brief spell of Unsettled to Active (Kp3-4) days 2-3 (23-24 Nov).
+
+
+
+Energetic Particles / Solar Radiation: 
+No solar radiation storms are expected, with the count rate of energetic particles (high energy protons) remaining at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-11-22,2026-11-23,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
