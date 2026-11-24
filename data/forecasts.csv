@@ -2079,3 +2079,21 @@ Mainly quiet geomagnetic activity is expected. Slightly higher activity is possi
 Energetic Particles / Solar Radiation:
  No solar radiation storms are expected given the dearth of Earth-facing sunspot regions and their subdued activity.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-11-23,2026-11-24,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-11-24,2026-11-25,NOAA,1.67,Quiet,R1-R2:1% R3+:1%,C,1,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-11-24,2026-11-25,SIDC,,Quiet,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-11-24,2026-11-25,MetOffice,,G2,Fast solar winds arriving around 27 Nov with minor geomagnetic storm activity likely.,,,"Solar Activity:
+ Very Low or Low activity is expected during the four-day period, given a chance of isolated Common-class flares. A slight risk remains for isolated Moderate-class flares.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ A CME could arrive during day 4 (27 Nov), possibly embedded within the forecast transition to faster solar winds from a coronal hole. Slow solar wind conditions are expected to continue until large trans-equatorial coronal hole becomes geoeffective. This occurring potentially late day 3 (26 Nov), or more likely on day 4 (27 Nov) with an increase to Elevated or Strong solar winds forecast.
+
+
+Quiet geomagnetic activity is expected through days 1 to 3 (24 to 26 Nov). Following the onset of the coronal hole fast wind interaction region, most likely on day 4 (27 Nov), Active minor geomagnetic storm conditions are forecast to occur, with a chance of peak Moderate storm levels being reached.
+
+
+
+Energetic Particles / Solar Radiation:
+ No solar radiation storms are expected.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-11-24,2026-11-25,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
