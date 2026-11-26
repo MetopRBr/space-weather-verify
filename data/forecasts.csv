@@ -2112,3 +2112,18 @@ Solar Wind / Geomagnetic Activity:
 Energetic Particles / Solar Radiation:
  No solar radiation storms are expected with the count rate of energetic particles (high energy protons) forecast to remain at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-11-25,2026-11-26,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-11-26,2026-11-27,NOAA,5.0,G1,R1-R2:1% R3+:1%,C,1,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-11-26,2026-11-27,SIDC,,,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-11-26,2026-11-27,MetOffice,,G2,"G1 Minor Storms expected, mainly day 2, with a slight chance G2 Moderate storms.&nbsp;",,,"Solar Activity:
+ Very Low activity is expected with only a slight chance of rising to Low with isolated Common-class solar flares.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ There are no significant Earth-directed CMEs, however a very weak arrival is possible either very late day 1 or early day 2 (26-27) Nov from an eruption that left the Sun on 23 Nov. However, this is unlikely to have an appreciable impact. The next significant solar wind enhancement will be from the fast winds of a large coronal hole, with onset expected day 2 (27 Nov), and speeds then peaking Strong into day 3 (28 Nov) before easing again. Mainly Quiet geomagnetic activity is expected to become Active to G1 Minor Storm with this onset, with a slight chance of G2 Moderate Storms. Activity then easing later day 3 (28 Nov) to be Quiet to Active.&nbsp;
+
+
+
+Energetic Particles / Solar Radiation:
+ No solar radiation storms are expected with the count rate of energetic particles (high energy protons) forecast to remain at Background.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-11-26,2026-11-27,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
