@@ -2142,3 +2142,21 @@ Solar Wind / Geomagnetic Activity:
 Energetic Particles / Solar Radiation:
  No solar radiation storms are expected given the absence of complex sunspot regions to produce them.",True,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
 2026-11-27,2026-11-28,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
+2026-11-28,2026-11-29,NOAA,3.0,Unsettled,R1-R2:5% R3+:1%,C,5,S1+:1%,False,1,"flare_category derived from R-scale (radio blackout) as proxy, not a direct per-class flare probability product"
+2026-11-28,2026-11-29,SIDC,,G1,,,,Quiet,False,,scraped from sidc.be forecast box; verify against sidc.be/robots.txt and terms of use before scheduling frequent automated runs
+2026-11-28,2026-11-29,MetOffice,,G1,Chance of G1/Minor geomagnetic storm conditions on Day 1 (28 Nov).,,,"Solar Activity: 
+Overall Low or Very Low activity is expected, but with a slight chance of isolated Moderate-class flares.
+
+
+
+Solar Wind / Geomagnetic Activity:
+ No CMEs feature in the forecast. Earth has connected to the fast wind from the coronal hole feature in the western hemisphere, and solar winds are expected to erratically increase further to reach Elevated levels either late Day 1 or early Day 2 (28 or 29 Nov). Speeds will decline in the following days to become Background again on Day 4 (01 Dec).&nbsp;
+
+
+Unsettled to Active geomagnetic activity is expected initially, with a chance of isolated G1/Minor geomagnetic intervals (Kp5) during the next 12 hours or so. Thereafter geomagnetic activity is the expected to decline, becoming Quiet to Unsettled by late Day 2 (29 Nov) and mostly Quiet through Days 3 and 4 (30 Nov and 1 Dec).
+
+
+
+Energetic Particles / Solar Radiation:
+ No solar radiation storms are expected given the absence of complex sunspot regions on the Earth-facing disc to produce them.",False,,"prose-parsed; headline covers ~Day 1, summary spans Days 1-4 so this is an approximation — check combined field manually if a score looks off, and expect this parser to need occasional regex updates if Met Office changes their wording"
+2026-11-28,2026-11-29,GFZ,,,,,,,,,"GFZ does not forecast flares/protons; Kp forecast is chart-image-only on the public site (no public numeric feed), see https://spaceweather.gfz.de/fileadmin/SW-Monitor/kp_swift_ensemble_LAST.png — read the median/quantile values off the chart and fill in kp_raw manually if you want GFZ included in Kp scoring"
